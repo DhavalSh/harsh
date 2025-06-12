@@ -15,3 +15,4 @@ RUN unzip kindle.zip && \
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
 EXPOSE 80
+
